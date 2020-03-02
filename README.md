@@ -22,6 +22,7 @@ the question sentence.
 question sentence.
 (g) T < S 1 , ..., S t , S q > P ← Sentence templates to store all the extracted information for every sentence
 in P .
+
 (2) Categorization (cf. Subsection 3.4):
 (a) Verb categorization: for each unique verb V ∈ P addsub in the dataset,
 i. F eatureset V < f 1 , ..., f k > Dataset ← extract features (frameNet and VerbNet based).
@@ -31,6 +32,7 @@ F eatureset V and the operations relevant to the primary and/or secondary owners
 i. F eatureset S < f 1 , ..., f k > Dataset ← extract (syntactic) features (rule-based).
 ii. SolutionT ype < ST 1 , ..., ST 4 > Dataset ← identify the solution type based on the syntactic
 features in F eatureset S .
+
 (3) Information processing and answer generation:
 (a) ‘Object’ creation (cf. Subsection 3.6): for each unique verb V ∈ P addsub in the datasets, <
 P O 1 , I 1 , A 1 > and < SO 1 , I 1 , A 1 > (if SO 1 is not null) create the ‘Owner-Item-Attribute(‘OIA’)
